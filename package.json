@@ -3,5 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/tullahnazari/web3-html.git",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "ethers": "^5.7.1"
+  }
 }
