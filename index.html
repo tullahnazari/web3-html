@@ -8,10 +8,8 @@
         <title>Connecting with Javascript</title>
     </head>
     <body>
-        <script>
-            if (typeof window.ethereum !== "undefined") {
-                ethereum.request({ method: "eth_requestAccounts"})
-            }
-        </script>
+        <script src="./dist/bundle.js" type="text/javascript"></script>
+        <button id="connectButton" onclick="bundle.connect()">Connect</button>
+        <button id="executeButton" onclick="bundle.execute()">Execute</button>
     </body>
 </html>
